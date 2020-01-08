@@ -55,6 +55,7 @@ public class RNApiAiModule extends ReactContextBaseJavaModule implements AIListe
     private static final String LANG_RUSSIAN = "LANG_RUSSIAN";
     private static final String LANG_SPANISH = "LANG_SPANISH";
     private static final String LANG_UKRAINIAN = "LANG_UKRAINIAN";
+    private static final String LANG_TURKISH = "LANG_TURKISH";
 
 
     private AIService aiService;
@@ -371,6 +372,7 @@ public class RNApiAiModule extends ReactContextBaseJavaModule implements AIListe
         constants.put(LANG_RUSSIAN, "ru");
         constants.put(LANG_SPANISH, "es");
         constants.put(LANG_UKRAINIAN, "uk");
+        constants.put(LANG_TURKISH, "tr");
         return constants;
     }
 

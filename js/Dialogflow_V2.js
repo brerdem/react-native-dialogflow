@@ -191,5 +191,6 @@ export class Dialogflow_V2 {
     LANG_RUSSIAN = "ru";
     LANG_SPANISH = "es";
     LANG_UKRAINIAN = "uk";
+    LANG_TURKISH = "tr";
 }
 
